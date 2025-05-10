@@ -36,16 +36,18 @@ main{
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.529);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem{
     display: block;
-    background: url(../imagens/pexels-heftiba-940288.jpg) no-repeat right bottom #5f2c82;
+    background: url(../imagens/pexels-heftiba-940288.jpg) no-repeat right center #5f2c82;
     background-size: cover;
     height: 200px;
 }
 
-#formulario{
+#login > #formulario{
     display: block;
     padding: 10px;
 }
